@@ -1,0 +1,38 @@
+/* GENERAL STYLING */
+
+
+/* Impoerted from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+
+/*we target the whole page by using the * symbol*/
+*{
+    /*Padding represents the amount of inner space an element has, 
+    while the margin is whitespace available surrounding an element*/
+   margin: 0;
+   padding: 0;
+}
+
+/* We target the entire content which is present in the body*/
+body{
+   /* We directly use from the google fonts*/ 
+   font-family: 'Poppins', sans-serif;
+}
+
+html{
+   /* Does not take down immediately*/ 
+   scroll-behavior: smooth;
+}
+
+p{
+   color: rgb(85, 85, 85);
+}
+
+/* TRANSITION */
+
+a, .btn{
+   transition: all 300ms ease;
+}
+
+/* DESKTOP NAV */
