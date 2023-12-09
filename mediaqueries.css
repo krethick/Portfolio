@@ -1,0 +1,12 @@
+@media screen and (max-width: 1200px){
+    #desktop-nav {
+        display: none;
+    }
+
+    /* Content is showed in the hambuger-nav when 
+    desktop is disabled */
+     
+    #hamburger-nav{
+        display: flex;
+    }
+}
