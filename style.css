@@ -306,7 +306,8 @@ section{
 .arrow{
    position: absolute;
    right: -8rem;
-   bottom: 2.5rem;
+  /* bottom: 2rem; */
+   top: 21.5rem;
 }
 
 .details-container{
@@ -317,7 +318,6 @@ section{
    border: rgb(53,53,53) 0.1rem solid;
    border-color: rgb(163,163,163);
    text-align: center;
-   
 }
 
 .section-container{
@@ -425,5 +425,31 @@ height: 316px;
 
 #Art-work{
    position: relative;
-   height: -1000px;
+   height: 400px;
+   
+}
+
+#Art-work1{
+   position: relative;
+   height: 310px;
+}
+
+#Art-work2{
+   position: relative;
+   height: 390px;
+}
+
+.article-container2{
+   width: 400px;
+   height: 315px;
+}
+
+.details-container1{
+  background: white;
+  position: 0px;
+}
+
+#Volunteering
+{
+   position: relative;
 }
