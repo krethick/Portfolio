@@ -335,7 +335,7 @@ section{
 
 #experience{
   position: relative;
-  height: 1150px; /*Create a space for projects */
+  height: 800px; /*Create a space for projects */
 }
 
 .experience-sub-title{
@@ -371,16 +371,63 @@ article .icon {
    cursor: default;
 }
 
+.progress-bar-container {
+   width: 100%;
+   height: 10px; /* Set the height of the progress bar container */
+   background-color: #ddd; /* Background color for the progress bar container */
+   margin-top: 5px; /* Adjust margin as needed */
+   overflow: hidden; /* Hide overflow to clip the gradient */
+   
+}
+
+
+.progress-bar {
+   height: 100%;
+   background: linear-gradient(to right, #4CAF50 0%, #4CAF50 80%, #ddd 80%, #ddd 100%);
+   /* Green color for completed part, grey color for remaining part */
+}
+
+
+.text-container12{
+   margin-right: 65px;
+}
+
+.text-container13{
+   margin-right: 45px; 
+}
+
+.text-container14{
+   margin-right: -60px; 
+}
+
+.text-container15{
+   margin-right: 59px;
+}
+
+.text-container16{
+   margin-right: 70px;
+}
+
+.text-container17{
+   margin-right: 22px; 
+}
+
+.text-container18{
+   margin-right: 40px; 
+}
+
+
+
 /* PROJECTS SECTION */
 
 #projects{
    position: relative;
-   height: 1000px;
+   height: 1250px;
 }
 
 #projects1{
    position: relative;
-   height: 1200px;
+   height: 960px;
 }
 
 .color-container{
@@ -400,9 +447,21 @@ article .icon {
    
 }
 
+.project-title1{
+   margin: .9rem;
+   color: black;
+   
+}
+
 .project-btn{
    color:black;
    border-color: rgb(163,163,163);
+}
+
+.project-btn1{
+   color:black;
+   border-color: rgb(163,163,163);
+   margin-bottom: 20px;
 }
 
 
@@ -459,13 +518,13 @@ height: 316px;
 
 #Volunteering1{
    position: relative;
-   height: 310px;
+   height: 460px;
 }
 
 #Volunteering2{
    position: relative;
-   height: 399px;
-}
+   height: 379px;
+} 
 
 /* CONTACT */
 
