@@ -25,10 +25,9 @@
     }
 
     
-    #profile, .section__pic-container
+    #about
     {
-        margin-top: 2rem;
-        margin-bottom: 500px; 
+        margin-top: 1px; 
 
     }
     #experience,
