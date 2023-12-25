@@ -1,7 +1,7 @@
 @media screen and (max-width: 1400px){
     #profile {
         height: 83vh;
-        margin-bottom: 6rem;
+        margin-bottom: 2rem;
     }
 
     .about container {
@@ -24,6 +24,13 @@
         display: flex;
     }
 
+    
+    #profile, .section__pic-container
+    {
+        margin-top: 2rem;
+        margin-bottom: 500px; 
+
+    }
     #experience,
     .experience-details-container{
         margin-top: 2rem;
