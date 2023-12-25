@@ -171,4 +171,9 @@
         .text-container{
             text-align:justify;
         }
+
+        #contact, .contact-info-container
+        {
+            margin-right: 9.5px;
+        }
     }
