@@ -278,6 +278,17 @@ section{
    gap: 1rem;
 }
 
+.btn-container1{
+   display: flex;
+   justify-content: center;
+   gap: 1rem;
+   margin-bottom: 12px;
+}
+
+.btn-container1{
+   gap: 1rem;
+}
+
 /* ABOUT SECTION */
 
 #about{
@@ -480,9 +491,6 @@ height: 316px;
 
 }
 
-.btn-container1{
-   margin-bottom: 15px;
-}
 
 /* Art SECTION */
 
