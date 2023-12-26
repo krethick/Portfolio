@@ -126,7 +126,7 @@
 
         .about-containers, 
         .contact-info-upper-container, 
-        .btn-container{
+        .btn-container, .btn-container1{
            flex-wrap: wrap;
         }
 
