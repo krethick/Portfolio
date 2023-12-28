@@ -79,6 +79,7 @@ a:hover{
 /* Changes the name font size*/
 .logo{
    font-size: 2rem;
+   margin-left: 10.8rem;
 }
 
 /* When hovered the cursor becomes default */
